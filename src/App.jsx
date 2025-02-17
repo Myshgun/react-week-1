@@ -4,12 +4,11 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 export const App = () => {
-	// Императивный
+	// React и есть декларативный
 	const [count, setCount] = useState(0);
 
 	const currentYear = new Date().getFullYear();
 
-	// Декларативный
 	return (
 		<>
 			<div>
